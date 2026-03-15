@@ -1,0 +1,22 @@
+# Python stuff
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Scraping Trash
+*.log
+*_debug.html
+*_debug_p*.html
+
+# Data (Keep samples, but don't push massive dumps)
+# If you want to show off the data, keep these:
+!quotes.json
+!pakwheels_civics.json
+!ebay_gpus.json
+
+# System
+.DS_Store
+Thumbs.db
