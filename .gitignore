@@ -1,22 +1,15 @@
-# Python stuff
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-env/
-venv/
-
-# Scraping Trash
+__pycache__
 *.log
 *_debug.html
 *_debug_p*.html
-
-# Data (Keep samples, but don't push massive dumps)
-# If you want to show off the data, keep these:
-!quotes.json
-!pakwheels_civics.json
-!ebay_gpus.json
-
-# System
-.DS_Store
-Thumbs.db
+.venv/
+env/
+venv/
+debug.py
+debug2.py
+debug_page.py
+debug_uc.py
+test_headers.py
+test_request.py
+test_scraper.py
+vibe_scraper.py
